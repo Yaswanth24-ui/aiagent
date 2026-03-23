@@ -1,0 +1,46 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 731-745-340
+send: 'ehlo [192.168.43.134]\r\n'
+reply: b'250-smtp.gmail.com at your service, [2401:4900:4fdc:1657:f473:2e75:32be:a743]\r\n'
+reply: b'250-SIZE 35882577\r\n'
+reply: b'250-8BITMIME\r\n'
+reply: b'250-STARTTLS\r\n'
+reply: b'250-ENHANCEDSTATUSCODES\r\n'
+reply: b'250-PIPELINING\r\n'
+reply: b'250-CHUNKING\r\n'
+reply: b'250 SMTPUTF8\r\n'
+reply: retcode (250); Msg: b'smtp.gmail.com at your service, [2401:4900:4fdc:1657:f473:2e75:32be:a743]\nSIZE 35882577\n8BITMIME\nSTARTTLS\nENHANCEDSTATUSCODES\nPIPELINING\nCHUNKING\nSMTPUTF8'
+send: 'STARTTLS\r\n'
+reply: b'220 2.0.0 Ready to start TLS\r\n'
+reply: retcode (220); Msg: b'2.0.0 Ready to start TLS'
+send: 'ehlo [192.168.43.134]\r\n'
+reply: b'250-smtp.gmail.com at your service, [2401:4900:4fdc:1657:f473:2e75:32be:a743]\r\n'
+reply: b'250-SIZE 35882577\r\n'
+reply: b'250-8BITMIME\r\n'
+reply: b'250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH\r\n'
+reply: b'250-ENHANCEDSTATUSCODES\r\n'
+reply: b'250-PIPELINING\r\n'
+reply: b'250-CHUNKING\r\n'
+reply: b'250 SMTPUTF8\r\n'
+reply: retcode (250); Msg: b'smtp.gmail.com at your service, [2401:4900:4fdc:1657:f473:2e75:32be:a743]\nSIZE 35882577\n8BITMIME\nAUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH\nENHANCEDSTATUSCODES\nPIPELINING\nCHUNKING\nSMTPUTF8'
+send: 'AUTH PLAIN ADIyMzMxYTEyNTJAZ21haWwuY29tAG1rYmtma2Jtd2xoeHVtY3E=\r\n'
+reply: b'235 2.7.0 Accepted\r\n'
+reply: retcode (235); Msg: b'2.7.0 Accepted'
+send: 'mail from:<22331a1252@gmail.com> size=586\r\n'
+reply: b'250 2.1.0 OK 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp\r\n'
+reply: retcode (250); Msg: b'2.1.0 OK 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp'
+send: 'rset\r\n'
+reply: b'250 2.1.5 Flushed 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp\r\n'
+reply: retcode (250); Msg: b'2.1.5 Flushed 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp'
+send: 'QUIT\r\n'
+reply: b'221 2.0.0 closing connection 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp\r\n'
+reply: retcode (221); Msg: b'2.0.0 closing connection 98e67ed59e1d1-35bd3f34b2bsm6119607a91.8 - gsmtp'
+127.0.0.1 - - [22/Mar/2026 12:30:07] "POST /execute HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\kanna\\OneDrive\\Desktop\\cerv\\tools.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 731-745-340

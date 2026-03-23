@@ -1,0 +1,7 @@
+AI Agent Web Interface running at http://127.0.0.1:5000
+ * Serving Flask app 'app'
+ * Debug mode: on
+AI Agent Web Interface running at http://127.0.0.1:5000
+  [NotificationSystem] Attempting SMTP login for 22331a1252@gmail.com...
+  [NotificationSystem] Login Successful. Sending email to []...
+  [NotificationSystem] CRITICAL SMTP ERROR: {}

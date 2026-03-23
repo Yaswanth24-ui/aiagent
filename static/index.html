@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous AI Agent | Premium Interface</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cerv AI Agent</h1>
+            <p>Reasoning. Tool Usage. Feedback Loops. Autonomy.</p>
+        </header>
+
+        <section class="agent-card">
+            <div class="input-group">
+                <input type="text" id="task-input" placeholder="e.g., Book a sync meeting for tomorrow and notify Alice..." autocomplete="off">
+                <div class="status-bar">
+                    <div>
+                        <span id="agent-status-dot" class="status-dot dot-online"></span>
+                        <span id="agent-status-text">Status: Ready</span>
+                        <div id="loader" class="loader"></div>
+                    </div>
+                    <div>
+                        <span id="mode-text">Current Mode: Simulation</span>
+                    </div>
+                </div>
+                <button id="run-btn">Execute Task</button>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div id="execution-log" class="execution-area">
+                <!-- Executions steps will appear here dynamically -->
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
